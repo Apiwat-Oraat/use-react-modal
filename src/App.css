@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.Modal {
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 0px;
+
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  text-align: center;
+  border-radius: 10px;
+  border: 2px solid black;
+
+  button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 5px 10px;
+    background-color: #000000ff;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  button:hover {
+      background-color: #e6e2e2cc;
+      color: black;
+      /* transition-delay: 0.2s; */
+      transition-duration: 0.3s;
+    
+  }
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
